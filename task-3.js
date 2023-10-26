@@ -8,8 +8,6 @@ function filterArray(numbers, value) {
   }
   return filteredArray; 
 }
-
-console.log("task 3");
 console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]
 console.log(filterArray([1, 2, 3, 4, 5], 4)); // [5]
 console.log(filterArray([1, 2, 3, 4, 5], 5)); // []
